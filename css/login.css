@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font */
+
+        body{
+            background-color: #8ECC8E;
+            min-width: 1320px;
+        }
+        .rogin{
+            width: 500px;
+            height: 700px;
+            margin: 100px auto;
+            background-color: #fff;
+            position: relative;
+            box-sizing: border-box;
+            border-radius: 50px;
+            box-shadow: 0px 0px 20px rgba(000, 000, 000, 0.5);
+        }
+        .rogin img{
+            position: absolute;
+            top: 140px;
+            left: 95px;
+            width: 300px;
+        }
+        .rogin p label input{
+            width: 322px;
+            height: 30px;
+            border: 1px solid #8ECC8E;
+            margin-top: 250px;
+            margin-left: 90px;
+            box-sizing: border-box;
+            padding: 10px;
+    
+        }
+        .rogin p input{
+            height: 30px;
+            width: 322px;
+            border: 1px solid #8ECC8E;
+            margin-left: 90px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        button{
+            padding: 10px 135px;
+            border-radius: 30px;
+            color: #fff;
+            margin-top: 50px;
+            margin-left: 92px;
+            border: 1px solid #8ECC8E;
+            background-color: #8ECC8E;
+            font-size: 14px;
+            font-family: 'GmarketSansMedium';
+            box-sizing: border-box;
+        }
+        .rogin hr{
+            margin-top: 30px;
+            width: 300px;
+            border: 1px solid #8ECC8E;
+        }
+        .button2{
+            padding: 10px 125px;
+            border-radius: 30px;
+            color: #000;
+            margin-top: 20px;
+            margin-left: 92px;
+            background-color: #fff;
+            font-size: 14px;
+            font-family: 'GmarketSansMedium';
+            box-sizing: border-box;
+        }
+        button a:hover{
+            color: #000;
+        }
+        button:hover{
+            font-family: 'GmarketSansBold';
+        }
+        .button2:hover{
+            
+            font-family: 'GmarketSansBold';
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            color: #8ECC8E;
+        }
+        h5{
+            position: absolute;
+            bottom: 45%;
+            right: 18%;
+            font-size: 12px;
+            font-family: 'GmarketSansLight';
+        }
+        h6{
+            position: absolute;
+            bottom: 44%;
+            left: 18%;
+            font-size: 12px;
+            font-family: 'GmarketSansLight';
+        }

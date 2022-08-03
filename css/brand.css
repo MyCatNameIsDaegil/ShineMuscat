@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font */
+body::-webkit-scrollbar {/*스크롤바 전체*/
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {/*스크롤바 막대*/
+    background-color: #8ECC8E;
+    border-radius: 10px;
+    background-clip: padding-box;
+  }
+  body::-webkit-scrollbar-track {/*스크롤바 막대 외부*/
+    background-color: black;
+  }
+/* scroll bar*/
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+
+body{
+    font-family: 'GmarketSansLight';
+    font-size: 12px;
+    line-height: 30px;
+    color: #252525;
+    min-width: 1320px;
+    
+}
+/* body */
+
+.top1{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+/* top */
+
+#header{
+    
+    border-bottom: 1px solid #ccc;
+}
+.header{
+    width: 1320px;
+    margin: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.nav{
+    float: right;
+    margin-top: 10px;
+}
+.nav> li{
+    float: left;
+}
+.nav> li> a{
+    display: block;
+    padding: 29px 0px 33px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'GmarketSansMedium';
+}
+.nav> li> a:hover{
+    font-weight: bold;
+    color: #8ECC8E;
+}
+#header img{
+    padding: 14px 0;
+}
+/*서브메뉴 꾸미기*/
+.sub{
+    background-color: rgba(137, 201, 125, 0.8);
+    width: 100%;
+    position: absolute;/*body가 기준*/
+    left: 0;
+    display: none;/*안보이게 만들어 주기!*/
+    z-index: 99;
+    min-width: 1320px;
+}
+.sub div{
+    width: 1320px;
+    margin: auto;
+}
+.sub ul{
+    float: left;
+    width: 120px;/*메인메뉴 a태그랑 같은 너비*/
+    text-align: center;
+    padding: 20px 0;
+}
+.sub div ul:nth-child(1){
+    margin-left: 480px;
+}
+.sub ul a{
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.sub ul a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.nav li:hover .sub{
+    display: block;
+}
+/* sub */
+
+
+
+
+
+.brand_story{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    margin: auto;
+}
+.brand_story img:nth-child(2){
+    position: absolute;
+    top: 80px;
+    left: 25%;
+    width: 700PX;
+}
+.brand_story img:nth-child(3){
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 500px;
+
+}
+.brand_story img:nth-child(4){
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    width: 500px;
+
+}
+.brand_story img:nth-child(5){
+    position: absolute;
+    top: 35%;
+    right: 30%;
+   width: 530px;
+    z-index: 99;
+}
+.brand_story img:nth-child(6){
+    position: absolute;
+    top: 46%;
+    left: 32%;
+   width: 450px;
+    z-index: 98;
+}
+.brand_story img:nth-child(7){
+    position: absolute;
+    top: 55%;
+    left: 37%;
+   z-index: 97;
+   width: 370px;
+}
+
+
+
+
+
+
+.smc{
+    text-align: center;
+    margin: 100px auto;
+    font-size: 30px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+.name{
+ 
+    text-align: center;
+    height: 280px;
+    width: 1320px;
+ 
+    margin:300px auto;
+    border-radius: 30px;
+}
+.name h4{
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'GmarketSansBold';
+    color: #000;
+}
+.name p{
+    font-size: 20px;
+    font-family: 'GmarketSansMedium';
+    line-height: 50px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    border-top: 1px solid #ccc;
+}
+.footer1{
+    margin:auto;
+    width: 1320px;
+    height: 150px;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 18px;
+    
+}
+.footer1 ul{
+    float: left;
+    margin: 40px 50px 0 0px;
+}
+.footer1 img{
+    position: absolute;
+    top: 50%;
+    right: -7%;
+    transform: translate(-50%,-50%);
+}
+.text1{
+    font-size: 14px;
+    font-family: 'GmarketSansBold';
+}
+.text2{
+    font-size: 12px;
+    font-family: 'GmarketSansMedium';
+}
+.text2 span{
+    font-size: 12px;
+    font-family: 'GmarketSansLight';
+}
+/* footer1 */
+
+#footer2{
+    background-color: #252525;
+}
+.footer2{
+    margin: auto;
+    width: 1320px;
+    height: 300px;
+    box-sizing: border-box;
+    color: #d1d1d1;
+    line-height: 18px;
+    
+}
+.footer2 li{
+    float: left;
+    padding: 60px 30px 30px 0;
+}
+.footer2 ul li a{
+    color: #d1d1d1;
+}
+.footer2 p{
+    clear: both;
+}
+.footer2 ul li a:hover{
+    opacity: 0.5;
+}
+.sns{float: right;
+opacity: 0.3;
+}
+/* footer2 */
